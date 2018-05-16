@@ -1,0 +1,17 @@
+{
+  "name": "demo01",
+  "version": "1.0.0",
+  "description": "This is a webpack demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "dev": "webpack --mode development",
+    "bulid": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pengliangren",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.6.0"
+  }
+}

@@ -1,0 +1,21 @@
+#ignore these files
+
+publish/publish.zip
+publish/project/react.js
+config/ignore/*
+*/node_modules/*
+dist/*
+design/*
+.cache/*
+.idea/*
+*.log
+html/game/webgame/npm-debug.log*
+*.swp
+.vscode/*
+log.txt
+**/.DS_Store
+yarn.lock
+npm-debug.log
+.cache/
+
+

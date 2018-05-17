@@ -1,0 +1,14 @@
+html{
+    background : blue;
+}
+.box{
+    /* 引入common.css  样式 */
+    composes : bigBox from './common.css';
+
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    background: #333;
+
+    
+}
